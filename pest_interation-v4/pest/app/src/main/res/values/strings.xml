@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pest Busters</string>
+
+    <string-array name="pest">
+        <item>Red_eared slider Turtle</item>
+    </string-array>
+
+    <string name="guide"> Victorian bushlands provide food and habitat
+        for the native animals. However, over the years,
+        native animals are alarmingly endangering due to loss of habitat and attacked by
+        exotic pest animals. At the same, the eco-logical balance is affected by
+        the cause due to loss of biodiversity. These animals are found to be carrying
+        exotic diseases to harm native and stock animals. For example, feral cats hunt
+        a wide variety of animals from mammals, birds to reptiles. As per Victorian Australia,
+        80 endangered species are at risk by feral cats itself. Additionally, another pest
+        animal cane toad is also harmful for native frogs, reptiles, fish and mammals who
+        consume almost everything they can swallow. </string>
+
+     <string name="guide1">
+         Except for the above mentioned, there are feral foxes, European rabbits,
+         wild dogs and pigs many more. Government has been taking measures;
+         however, the results are yet insignificant. Research further shows that the
+         costs incurred by the Victorian Government due to these pests is approximated
+         at $900 million each year making them a menace to the society. Therefore, Government is urging
+         citizens to report the sighting of the pest animals for them to
+         take appropriate measures.
+     </string>
+
+    <string name="guide2">Red eared slider turtle is a
+        non-native animal recognized as a pest in Victoria.
+        It is a classified as a priority pest animal in Victoria
+        and the Government suspects that the red eared slider turtle
+        to be a result of release from illegal pet trade, since turtles
+        can live up to 50 years in the open and are their aggressive nature
+        pose a threat to the native turtles more commonly found in the
+        bushlands. The Red Eared Slider is also known to carry exotic
+        diseases and need to be reported immediately if located. The pictures
+        below can help you to recognize the turtle and its distinctive
+        features and we urge the users to use our
+        identify functions to recognize this priority pest with the highest accuracy</string>
+
+</resources>
+
+
+
