@@ -1,0 +1,103 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateReport(
+  $input: CreateReportInput!
+  $condition: ModelReportConditionInput
+) {
+  createReport(input: $input, condition: $condition) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateReport(
+  $input: UpdateReportInput!
+  $condition: ModelReportConditionInput
+) {
+  updateReport(input: $input, condition: $condition) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteReport(
+  $input: DeleteReportInput!
+  $condition: ModelReportConditionInput
+) {
+  deleteReport(input: $input, condition: $condition) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateFeedback(
+  $input: CreateFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  createFeedback(input: $input, condition: $condition) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateFeedback(
+  $input: UpdateFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  updateFeedback(input: $input, condition: $condition) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteFeedback(
+  $input: DeleteFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  deleteFeedback(input: $input, condition: $condition) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pest Busters</string>
+
+    <string-array name="pest">
+        <item>Red_eared slider Turtle</item>
+    </string-array>
+
+</resources>
+
