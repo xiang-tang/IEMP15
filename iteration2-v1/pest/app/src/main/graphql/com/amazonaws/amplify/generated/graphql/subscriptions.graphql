@@ -1,0 +1,133 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateReport {
+  onCreateReport {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateReport {
+  onUpdateReport {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteReport {
+  onDeleteReport {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateFeedback {
+  onCreateFeedback {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateFeedback {
+  onUpdateFeedback {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteFeedback {
+  onDeleteFeedback {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreatePestInfor {
+  onCreatePestInfor {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdatePestInfor {
+  onUpdatePestInfor {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeletePestInfor {
+  onDeletePestInfor {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

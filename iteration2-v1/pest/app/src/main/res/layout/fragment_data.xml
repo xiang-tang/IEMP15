@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DataFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number of pest animal sightings"
+                />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barchart"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="380dp"
+                android:layout_height="350dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+<!--<TextView
+    android:id="@+id/test"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>-->
+            <TextView
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pest animals sighted in areas (postcode)"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+             <TextView
+                 android:textSize="16sp"
+                 android:layout_marginLeft="20dp"
+                 android:text="Pest Name: "
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:layout_marginLeft="10dp"
+                android:id="@+id/data_spin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/pest"
+                />
+
+                <Button
+                    android:id="@+id/data_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="Submit"></Button>
+
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/data_pie"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="380dp"
+                android:layout_height="350dp"></com.github.mikephil.charting.charts.PieChart>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
