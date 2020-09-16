@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6ffff"
+    tools:context=".GooseShowActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canada Goose"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#000"
+                ></TextView>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goose_infor"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Appearance"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#1a1a1a"
+                />
+            <TextView
+
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goose_apperance"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Risk Factors"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#1a1a1a"
+                />
+            <TextView
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goose_risk"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Did you know?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#1a1a1a"
+                />
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goose_know"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                >
+            </TextView>
+
+             <com.denzcoskun.imageslider.ImageSlider
+                 android:id="@+id/goose_slider"
+                 android:layout_width="wrap_content"
+                 android:layout_height="200dp"
+                 app:iss_auto_cycle="true"
+                 app:iss_period="1000"
+                 app:iss_corner_radius="20"
+                 >
+             </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
