@@ -1,6 +1,6 @@
 # IEMP15
 
-Please read the PEST BUSTER APP Installation guide for installing the apk 
+Please read the InvasiPests APP Installation guide for installing the apk 
 
 Run code on Android Studio
 1.Install Node.js on computer
@@ -22,15 +22,7 @@ Run   npm install -g @aws-amplify/cli  on terminal
 After download the android project, open android studio and open this project
  
 
-Download ZIP of all file
-
-
-
-
-
-
-
-
+Download ZIP of all files
 
 
 6. Install virtual device on Android studio
@@ -40,7 +32,7 @@ Open AVD Manager and select one device,
  
 Select Level 29 then finish;
 
-7. Run Android studio
+7. Run Android studio and use the emulator for testing the app
 
 
 
