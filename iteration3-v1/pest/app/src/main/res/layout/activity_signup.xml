@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:background="#E5F0F5"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Get Started!"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/quantum_black_100"
+
+        />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signEmail"
+        android:background="@drawable/bg_for_input"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:hint="Email"
+        android:layout_width="300dp"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signusername"
+        android:background="@drawable/bg_for_input"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:hint="User Name"
+        android:layout_width="300dp"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signpwd"
+        android:background="@drawable/bg_for_input"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signrepwd"
+        android:background="@drawable/bg_for_input"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"/>
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sigincreate"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_for_signin"
+        android:text="Create"
+        android:textSize="18sp"
+        />
+
+
+
+
+
+</LinearLayout>

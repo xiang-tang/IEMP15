@@ -1,0 +1,48 @@
+#enum Priority {
+#  LOW
+#  NORMAL
+#  HIGH
+#}
+#
+#type Todo @model {
+#  id: ID!
+#  name: String!
+#  priority: Priority
+#  description: String
+#}
+
+type Report @model{
+  id: ID!
+  pest:String
+  date:String
+  num:Int
+  description:String
+  location:String
+  imagePath:String
+  userName:String
+  useemail:String
+  userScore:Int
+}
+
+type Feedback @model{
+  id: ID!
+  name: String
+  email: String
+  comment: String
+}
+
+type PestInfor @model{
+  id: ID!
+  name:String
+  latitud:String
+  longtitud:String
+  year:String
+  num:Int
+}
+
+type UserInfor@model{
+  id: ID!
+  uemail:String
+  uname:String
+  password:String
+}

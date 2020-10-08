@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pest-dev-162444-authRole",
+            "UnauthRoleArn": "arn:aws:iam::396520335007:role/amplify-pest-dev-162444-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::396520335007:role/amplify-pest-dev-162444-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-pest-dev-162444-deployment",
+            "UnauthRoleName": "amplify-pest-dev-162444-unauthRole",
+            "StackName": "amplify-pest-dev-162444",
+            "StackId": "arn:aws:cloudformation:us-east-2:396520335007:stack/amplify-pest-dev-162444/82596150-e5d2-11ea-b1b4-06a68ce6af12",
+            "AmplifyAppId": "d3vhrxs1vyd2mf"
+        },
+        "categories": {
+            "auth": {
+                "pest9b493bc5": {}
+            }
+        }
+    }
+}
