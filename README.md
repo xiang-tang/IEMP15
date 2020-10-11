@@ -3,7 +3,7 @@
 Please read the InvasiPests APP Installation guide for installing the apk 
 
 Run code on Android Studio<br>
-$nbsp;$nbsp;1.Install Node.js on computer
+&nbsp;&nbsp;1.Install Node.js on computer
 Down Node.js https://nodejs.org/en/, then execute it and follow guide to install it
 
 2. Download Android Studio
