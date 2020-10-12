@@ -21,13 +21,10 @@ Run npm install -g @aws-amplify/cli  on terminal.
 
 5. Download Android project on Github.
 After downloading the android project, open android studio and open this project.
- 
 Download all zipped files.
 
 6. Install virtual device on Android studio.
-
-Open AVD Manager and select one device,
- 
+Open AVD Manager and select one device, 
 Select Level 29 and finish;
 
 7. Run Android studio and use the emulator for testing the application.
