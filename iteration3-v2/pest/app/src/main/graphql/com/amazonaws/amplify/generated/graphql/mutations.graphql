@@ -1,0 +1,217 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateReport(
+  $input: CreateReportInput!
+  $condition: ModelReportConditionInput
+) {
+  createReport(input: $input, condition: $condition) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    userName
+    useemail
+    userScore
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateReport(
+  $input: UpdateReportInput!
+  $condition: ModelReportConditionInput
+) {
+  updateReport(input: $input, condition: $condition) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    userName
+    useemail
+    userScore
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteReport(
+  $input: DeleteReportInput!
+  $condition: ModelReportConditionInput
+) {
+  deleteReport(input: $input, condition: $condition) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    userName
+    useemail
+    userScore
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateFeedback(
+  $input: CreateFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  createFeedback(input: $input, condition: $condition) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateFeedback(
+  $input: UpdateFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  updateFeedback(input: $input, condition: $condition) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteFeedback(
+  $input: DeleteFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  deleteFeedback(input: $input, condition: $condition) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation CreatePestInfor(
+  $input: CreatePestInforInput!
+  $condition: ModelPestInforConditionInput
+) {
+  createPestInfor(input: $input, condition: $condition) {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdatePestInfor(
+  $input: UpdatePestInforInput!
+  $condition: ModelPestInforConditionInput
+) {
+  updatePestInfor(input: $input, condition: $condition) {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeletePestInfor(
+  $input: DeletePestInforInput!
+  $condition: ModelPestInforConditionInput
+) {
+  deletePestInfor(input: $input, condition: $condition) {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateUserInfor(
+  $input: CreateUserInforInput!
+  $condition: ModelUserInforConditionInput
+) {
+  createUserInfor(input: $input, condition: $condition) {
+    id
+    uemail
+    uname
+    password
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateUserInfor(
+  $input: UpdateUserInforInput!
+  $condition: ModelUserInforConditionInput
+) {
+  updateUserInfor(input: $input, condition: $condition) {
+    id
+    uemail
+    uname
+    password
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteUserInfor(
+  $input: DeleteUserInforInput!
+  $condition: ModelUserInforConditionInput
+) {
+  deleteUserInfor(input: $input, condition: $condition) {
+    id
+    uemail
+    uname
+    password
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

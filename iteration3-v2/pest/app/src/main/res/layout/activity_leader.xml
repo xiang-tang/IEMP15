@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lead"
+    tools:context=".LeaderActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/liveim"
+        android:src="@drawable/live"
+        android:layout_width="60dp"
+        android:layout_height="30dp"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_horizontal"
+         android:orientation="horizontal">
+
+         <ImageView
+             android:layout_width="150dp"
+             android:layout_height="159dp"
+             android:gravity="center"
+             android:src="@drawable/cc1" />
+
+     </LinearLayout>
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:text="Leaderboard"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textColor="#010101"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text="Rank"
+            android:textSize="14sp"
+            android:textColor="@color/quantum_black_100"
+
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Username"
+            android:textSize="14sp"
+            android:textColor="@color/quantum_black_100"
+            android:layout_marginLeft="40dp"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Total Points"
+            android:textSize="14sp"
+            android:textColor="@color/quantum_black_100"
+            android:layout_marginLeft="40dp"
+            />
+
+        <TextView
+            android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Total Reports"
+        android:textSize="14sp"
+        android:textColor="@color/quantum_black_100"
+            android:layout_marginLeft="30dp"
+        />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"></ListView>
+
+    </ScrollView>
+</LinearLayout>

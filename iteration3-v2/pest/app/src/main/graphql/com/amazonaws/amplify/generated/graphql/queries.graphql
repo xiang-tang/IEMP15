@@ -1,0 +1,269 @@
+# this is an auto generated file. This will be overwritten
+query SyncReports(
+  $filter: ModelReportFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncReports(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      pest
+      date
+      num
+      description
+      location
+      imagePath
+      userName
+      useemail
+      userScore
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetReport($id: ID!) {
+  getReport(id: $id) {
+    id
+    pest
+    date
+    num
+    description
+    location
+    imagePath
+    userName
+    useemail
+    userScore
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListReports(
+  $filter: ModelReportFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listReports(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      pest
+      date
+      num
+      description
+      location
+      imagePath
+      userName
+      useemail
+      userScore
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncFeedbacks(
+  $filter: ModelFeedbackFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncFeedbacks(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      email
+      comment
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetFeedback($id: ID!) {
+  getFeedback(id: $id) {
+    id
+    name
+    email
+    comment
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListFeedbacks(
+  $filter: ModelFeedbackFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listFeedbacks(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      email
+      comment
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncPestInfors(
+  $filter: ModelPestInforFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncPestInfors(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      latitud
+      longtitud
+      year
+      num
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetPestInfor($id: ID!) {
+  getPestInfor(id: $id) {
+    id
+    name
+    latitud
+    longtitud
+    year
+    num
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListPestInfors(
+  $filter: ModelPestInforFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listPestInfors(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      latitud
+      longtitud
+      year
+      num
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncUserInfors(
+  $filter: ModelUserInforFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncUserInfors(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      uemail
+      uname
+      password
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetUserInfor($id: ID!) {
+  getUserInfor(id: $id) {
+    id
+    uemail
+    uname
+    password
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+query ListUserInfors(
+  $filter: ModelUserInforFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUserInfors(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      uemail
+      uname
+      password
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+    nextToken
+    startedAt
+  }
+}
