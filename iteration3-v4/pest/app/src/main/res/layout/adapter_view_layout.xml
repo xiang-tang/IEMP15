@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/l_rank"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="Rank"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/l_name"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+
+        android:text="User Name"
+
+        android:textSize="15sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/l_points"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="Total Points"
+        android:textSize="15sp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/l_times"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="Report times"
+        android:textSize="15sp"
+        android:textColor="#000000"
+
+        />
+
+</LinearLayout>
