@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">InvasiPests</string>
+
+    <string-array name="pest">
+        <item>Red-eared Slider Turtle</item>
+        <item>Canada Goose</item>
+        <item>Goat</item>
+        <item>Pigeon</item>
+        <item>Rat</item>
+        <item>Sparrow</item>
+    </string-array>
+
+    <string name="guide"> Victorian bushlands provide food and habitat
+        for the native animals. However, over the years,
+        native animals are alarmingly endangering due to loss of habitat and attacked by
+        exotic pest animals. At the same, the eco-logical balance is affected by
+        the cause due to loss of biodiversity. These animals are found to be carrying
+        exotic diseases to harm native and stock animals. For example, feral cats hunt
+        a wide variety of animals from mammals, birds to reptiles. As per Victorian Australia,
+        80 endangered species are at risk by feral cats itself. Additionally, another pest
+        animal cane toad is also harmful for native frogs, reptiles, fish and mammals who
+        consume almost everything they can swallow. </string>
+
+    <string name="guide1">
+         Except for the above mentioned, there are feral foxes, European rabbits,
+         wild dogs and pigs many more. Government has been taking measures;
+         however, the results are yet insignificant. Research further shows that the
+         costs incurred by the Victorian Government due to these pests is approximated
+         at $900 million each year making them a menace to the society. Therefore, Government is urging
+         citizens to report the sighting of the pest animals for them to
+         take appropriate measures.
+     </string>
+
+    <string name="guide2">Red eared slider turtle is a
+        non-native animal recognized as a pest in Victoria.
+        It is a classified as a priority pest animal in Victoria
+        and the Government suspects that the red eared slider turtle
+        to be a result of release from illegal pet trade, since turtles
+        can live up to 50 years in the open and are their aggressive nature
+        pose a threat to the native turtles more commonly found in the
+        bushlands. The Red Eared Slider is also known to carry exotic
+        diseases and need to be reported immediately if located. The pictures
+        below can help you to recognize the turtle and its distinctive
+        features and we urge the users to use our
+        identify functions to recognize this priority pest with the highest accuracy</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pest_menu">Pest Menu</string>
+    <string name="red_eared_slider_turtle">Red-eared Slider Turtle</string>
+
+    <string name="turlte_infor">Red-eared Slider Turtle, a controlled non-native pest animal in Victoria,
+        originated from Sothern United States and Northern Mexico.
+        They can be found mostly in the wild, where they tend to compete with native species.</string>
+
+    <string name="turtlr_apperance">Medium sized, dark green
+        colored with black and occasional yellow circular blotches
+        of top shell (carapace). The bottom side (plastron) is bright
+        yellow with black rings with blotches and swirls. They have a
+        red or orange stripe in behind each eye and yellow stripes all over their body,
+        congruent to their name.</string>
+
+    <string name="turtle_risk">Red-eared Slider Turtle carries exotic diseases
+        and parasitesas well asdue to their aggressive nature and high breeding
+        rate can threaten native species</string>
+
+    <string name="turtle_know">Among hundreds of turtle species,
+        the red stripe in the neck of Red-eared Slider turtles separate them from others</string>
+
+
+    <string name="goat_infor">Feral goats, foreign pest in Australia, were introduced to supply meat and milk to the early setters, miners and construction teams. Due to accidental and deliberate releases now, they wildly populated across 35% of Australian land. Although, their distribution is rather unknown, they are mostly found in forested and
+        semi-arid areas as well as sighted in regional and state parks and forests allover in Victoria.</string>
+
+    <string name="goat_apperance">The goats have distinctive curved or corkscrew shaped horn to distinguish from other species, with some exception of hornless. They have long, short, silky hair with multi-colored coats.
+        They have dangling fleshy lobes around their necks and tend to have straight or rounded noses.</string>
+
+    <string name="goat_risk">Feral goats are prone to exotic diseases (Q fever, tetanus, rabies, foot &amp; moth diseases) and tend to be carrier in transferring the diseases to domestic sheep and goat herds.
+        They damage vegetation by overgrazing to prevent regeneration and soil erosion.</string>
+
+    <string name="goat_know">Goats can stand and take their first steps within minutes of being born!</string>
+
+
+    <string name="goose_infor">Canada goose, a non-native pest in Australia, can be found in semi-deserts, forests, coastal areas, wetlands,
+        lakes and agricultural land.  They adversely affect agriculture, environment and human health.</string>
+
+    <string name="goose_apperance">Medium to large sized with brown and white with. In addition, they have long black neck and head with black bill, tail, legs and feet. Their distinctive
+        features are white patches on their cheeks and chins and V-shaped white marks on the ramps.</string>
+
+    <string name="goose_risk">They droppings contain harmful diseases and bacteria harming both human and native waterfowl species. In addition, they compete with native species for food and nesting sites.
+        They foul and trample gardens, lawns, pathways and so on.</string>
+
+    <string name="goose_know">Canada goose have caused many serious aeroplane crashes while flying near airports! </string>
+
+    <string name="myna_infor">Indian Myna, a member native to Asia, is considered as one of the world’s most invasive species, posing serious threat to agriculture, human and biodiversity.
+        They can be found in Coastal regions as well as in humanized urban areas.</string>
+
+    <string name="myna_apperance">Indian Myna can be identified for their distinctive yellow beak and patch behind the eyes.
+        They have brown body with black hooded head and bright yellow bill and legs.</string>
+
+    <string name="myna_risk">Being omnivorous, Indian myna survives on insects, reptiles, small mammal, grains, fruits and seeds. Their aggressive behavior towards chicks of other native birds and their habitat is why they are considered invasive species.
+        Their scavenging nature is particularly a problem in Australia. </string>
+
+    <string name="myna_know">Indian Myna can be confused as native Noisy Miner; however the darker brown body of Indian Myna can distinct them from Noisy Miner.</string>
+
+    <string name="pigeon_infor">Pigeons, originally inhabited from ancestors in Europe, is increasingly common in urban areas of Australia in search of food and habitats.
+        Vacant buildings, and structural defects are attractive roosting sites for them.</string>
+
+    <string name="pigeon_apperance">Pigeons have a blue-grey with a mix of white ramp and two blacks
+        bars across their wings, with a dark band around the end of their tails.</string>
+
+    <string name="pigeon_risk">In addition to carrying disease and parasites, they tend to damage to industrial, domestic and commercial buildings by breeding and nesting in roof spaces. Pigeons droppings cause damage to agriculture by introducing
+        weeds and diseases as well as presence of corrosive acid in the droppings damages buildings and monuments.  </string>
+
+    <string name="pigeon_know">Pigeons are highly intelligent species, one of the very few species to pass the mirror
+        (self-recognition) test. They can also differentiate between photos and even humans!</string>
+
+    <string name="about_1">
+        Exotic pests in Victorian Bushland pose major threats to biodiversity, environment and agriculture
+        and human lives. However, Government is unable to locate the animals due to their invasive nature.
+    </string>
+
+    <string name="about_2">
+        Our mission is to join Victorian Government in controlling the havoc, by identifying and locating these pest animals accurately. But we cannot do this alone. We strongly believe
+        that together we thrive, alone we perish - lend us a hand in maintaining the eco-logical balance.
+    </string>
+
+    <string name="about_3">
+       Please make sure to maintain safe distance from dangerous animals
+    </string>
+
+    <string name="guide_ar">
+        Pests Gallery contains information about the priority and top invasive
+        pests in Victoria. It includes general introduction to their habitat,
+        appearance, and risk factors. You may use the information to learn about pest animals
+        to manually identify them, or else use the
+        identify feature of our application to detect with higher accuracy.
+    </string>
+
+    <string name="guide_loca">Find locations of pest animals in the application map and
+        take safety measures while visiting these areas</string>
+
+    <string name="report_1">
+Find previous reports sent in this section.
+        Select any of the pest animals to see the number of pest animals sighted by other people in a bar graph.
+    </string>
+
+    <string name="report_2">
+You can also get the postcodes of
+        the location and analyze the percentage of pest animals in certain areas for a quick browse (in a pie chart).
+    </string>
+
+
+    <!--Stralings-->
+
+    <string name="str_infor">
+Common Starlings, alternately called as the European starlings, native to Eurasia, is widespread around
+        Australia to-date. They generally low land birds, commonly found in non-mountainous areas.
+    </string>
+
+    <string name="str_app">
+        Common starlings have long and glossy back feathers with a metallic glaze.
+        The bleak of the bird varies with season; black in winter and yellow in summer with pink legs.
+    </string>
+
+    <string name="str_risk">
+        Common starlings are hosts to many parasites, including externally carrying fleas, mites, ticks and around 95% carry internal parasites such as worms. They feed on sprouting crops, grains and fruits, and causes harm to the agricultural fields, livestock facilities and contaminating human food sources with their droppings. Their predatory natures and natural
+        tendency to coexist with human are what causing of native social birds like woodpecker decline.
+    </string>
+
+    <string name="str_know">
+        Common starlings
+        can mimic human speeches and car alarms and gained attention for evolution of human language researches!
+    </string>
+
+
+    <!--sparrow-->
+    <string name="spa_infor">
+        Of the 25 species found in most parts of the world, house sparrows
+        are native to Europe. They tend to live around human habitats, leaving woodlands and desert areas.
+    </string>
+
+    <string name="spa_app">
+      House sparrows are small birds with varied appearance based on their sex. Females have colored pale brown and grey and males have brighter black, brown and white markings on their head,
+        a reddish back and grey underprints. Males have a distinctive crown on top of its bill to back.
+    </string>
+
+    <string name="spa_risk">
+    House sparrows are aggressive by nature and compete for nesting sites and kill other birds including their hatchlings and eggs. They drive native birds away by taking over the food sources. At the same time, they also invade human houses and food factories and not only
+        make a nuisance by building nests, but also carry diseases and contaminate foods.
+    </string>
+
+    <string name="spa_know">
+      House sparrows aren’t water birds; however, they can actually swim underwater to escape traps or predators!
+    </string>
+
+    <!--rat-->
+
+    <string name="rat_infor">
+       Black rat, originating from Indian subcontinent, are common long tailed rodents. This is considered as a serious pest, as being
+        omnivores, they feed on seeds, leaves, fruits, and wide range of invertebrates and vertebrates.
+    </string>
+
+    <string name="rat_app">
+        Black rat has several forms of color, commonly with black or grey-brown furry coats and black to light brown color
+        in the bottom. Their smaller body and larger eyes and ears are distinguishable from brown rats.
+    </string>
+
+    <string name="rat_risk">
+     The intense damages caused to plantations may take years to reverse as they reduce pH of soils and nutrients availability while feeding on them and restrict plant germination. Their generalist mentality in food preferences cause rapid decline and extinction to native species such as snails, bush rat and so on. They are even capable
+        of passing disease causing bacteria and viruses to human, in some cases which are incurable.
+    </string>
+
+    <string name="rat_know">
+       One easy way to identify Black rats is by their longer tails compared to their body, whereas Native Bush rats have shorter tails
+    </string>
+
+    <string name="term">I agree to the Terms and Conditions</string>
+
+    <string name="term_1">
+        These terms and conditions are an agreement between you, as a customer and us, which constitutes a legally binding document, concerning your access to the InvasiPests mobile application. We, as the operator and provider of the application,
+        need this agreement as a confirmation that you have read, understood and agree to all of the stated conditions
+    </string>
+
+    <string name="term_2">
+        We reserve the rights to make changes or modify the terms and conditions any time we find it necessary. We will notify you of any changes that may incur in the future. It is your responsibility to review the changes made. As per the agreement,
+        you will be deemed to have made aware of any changes and have accepted and continue using the application.
+    </string>
+
+    <string name="term_3">
+        Unless the ownership has shifted, InvasiPests is our intellectual property and all the source codes, database, layout, graphics, text, video, audio and logo are owned and controlled by us.
+        Personal use of the application is permitted, however, without our permission, any sort of commercial use is prohibited.
+    </string>
+
+    <string name="term_4">
+      To use InvasiPests, you require to provide us your basic information. You will be responsible for you account and password where you agree to keep the password confidential. We reserve the right to
+        remove or change any user information, if we believe that it contains profanity, obscene or vulgarism of any sort.
+    </string>
+
+    <string name="term_5">
+      By agreeing to the terms and condition, you confirm that the signup details are accurate. For future use, we will reserve the right to store the user provided details. You also agree that you will not use any inauthentic image, information or language that
+        violates our terms of use. We reserve the right to take down any such content or even terminate the use of such accounts.
+    </string>
+
+    <string name="term_6">
+    InvasiPests application can be accessed by third party websites. These websites are not monitored and investigated for any threats.
+        We do not hold any responsibility if you choose to leave our application and access through any third-party websites.
+    </string>
+
+    <string name="term_7">
+        If you fail to comply with any of the Terms and Conditions, we may without further notice,
+        terminate your InvasiPests account. Refer to Intellectual property rights and User-Generated content.
+    </string>
+
+
+    <string-array name="question">
+        <item>What primary school did you attend?</item>
+        <item>In what town or city was your first full time job?</item>
+        <item>In what town or city did you meet your partner?</item>
+        <item>What is the middle name of your oldest child?</item>
+        <item>In what town or city did your parents meet?</item>
+        <item>What time of the day were you born? (hh:mm)</item>
+    </string-array>
+
+</resources>
+
+
+

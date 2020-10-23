@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity"
+    android:background="#e6e6e6"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Guide"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/quantum_black_100"
+                >
+            </TextView>
+
+            <TextView
+                android:textColor="@color/quantum_black_100"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pests Gallery"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guide_ar"
+                android:textSize="16sp"
+                android:lineSpacingExtra="2dp">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/quantum_black_100"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Identify Pests"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <VideoView
+                android:id="@+id/video"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+
+                ></VideoView>
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="You can perform following actions in this section"
+                ></TextView>
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="- Upload images using camera or photos and detect the pest animals"
+                ></TextView>
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="- Report the pest animals to authorities in Victoria"
+                ></TextView>
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="- Report locations of pest animals"
+                ></TextView>
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="- Insert additional information about the pest"
+                ></TextView>
+
+            <TextView
+                android:textColor="@color/quantum_black_100"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Report Archive"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="You can find the pest locations and also browse through previous reports in this section"
+                ></TextView>
+            <TextView
+                android:textColor="@color/quantum_black_100"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location: "
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="@string/guide_loca"
+                ></TextView>
+
+            <TextView
+                android:textColor="@color/quantum_black_100"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Report: "
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="@string/report_1"
+                ></TextView>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="@string/report_2"
+                ></TextView>
+
+            <TextView
+                android:textColor="@color/quantum_black_100"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="- Need more information on pest animals?"
+                ></TextView>
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="- Any issues with the features?"
+                ></TextView>
+            <TextView
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:textSize="16sp"
+            android:text="- Any recommendations?"
+            ></TextView>
+
+            <TextView
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:textSize="16sp"
+                android:text="Write to us for anything that concerns you. We are here for you. :)"
+                ></TextView>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"></TextView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

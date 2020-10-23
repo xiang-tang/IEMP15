@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="#93CFF7"
+    >
+
+    <ImageView
+        android:src="@drawable/mainlo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/econimica"
+        android:text="Identify and Report Feral Pests"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/uemail"
+        android:background="@drawable/bg_for_input"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="Email"
+        android:layout_width="300dp"
+        android:layout_height="45dp"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/upwd"
+        android:background="@drawable/bg_for_input"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="45dp"/>
+
+    <Button
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/siginbtn"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:background="@drawable/bg_for_signin"
+    android:text="Sign In"
+    android:textSize="18sp"
+    />
+
+    <TextView
+        android:id="@+id/forget"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/quantum_black_100"
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/asguest"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_for_signin"
+        android:text="Login As Guest"
+        android:textSize="18sp"
+        />
+
+    <TextView
+    android:id="@+id/signupto"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="NEW USER? SIGN UP"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:textColor="@color/quantum_black_100"
+    />
+
+
+    
+</LinearLayout>

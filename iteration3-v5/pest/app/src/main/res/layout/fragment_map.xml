@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MapFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg"
+        >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:text="Pest Name: "
+            android:layout_width="wrap_content"
+            android:textColor="@color/quantum_black_100"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/map_spin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/pest"
+            />
+
+        <Button
+            android:id="@+id/map_btn"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Submit"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/re"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" User record "
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/quantum_black_100"
+            />
+    </LinearLayout>
+
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/google_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="15dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+    </com.google.android.gms.maps.MapView>
+
+
+</LinearLayout>
